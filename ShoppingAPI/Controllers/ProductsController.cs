@@ -14,9 +14,9 @@ namespace ShoppingAPI.Controllers
     {
         Product[] products = new Product[]
         {
-            new Product {Id = 1, Name = "Mechanical Keyboard", Category = "Electronics", Price = 60},
-            new Product {Id = 2, Name = "Aesop's Fables", Category = "Books", Price = 29.99M},
-            new Product {Id = 3, Name = "Stand Mixer", Category = "Electronics", Price = 49.99M}
+            new Product {Id = 1, Name = "Mechanical Keyboard", Category = "Electronics", Price = 60, Photo = "https://upload.wikimedia.org/wikipedia/commons/d/df/Mechanical_keyboard_example.jpg"},
+            new Product {Id = 2, Name = "Aesop's Fables", Category = "Books", Price = 29.99M, Photo = "https://upload.wikimedia.org/wikipedia/commons/d/db/Aesop-fables-rare-Book-bookcover.jpg"},
+            new Product {Id = 3, Name = "Stand Mixer", Category = "Electronics", Price = 49.99M, Photo = "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kitchen_aid_mixer.jpg"}
         };
 
         [HttpGet]
