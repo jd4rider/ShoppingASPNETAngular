@@ -46,6 +46,7 @@ namespace ShoppingAPI
             }
 
             app.UseIdentity();
+            app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
         }
